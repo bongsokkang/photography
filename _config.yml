@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "bongsokkang.github.io/photography"
+# baseurl: "bongsokkang.github.io/photography"
 images_fulls_loc: "/images/fulls"
 images_thumbs_loc: "/images/fulls"
 google_analytics: "UA-46465113-2"
