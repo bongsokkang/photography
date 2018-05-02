@@ -20,8 +20,8 @@ layout: money
         {% for images in site.static_files %}
         {% if images.path contains 'fulls' %}
         <article class="thumb">
-            <a href="{{ site.images_fulls_loc }}/{{ image.name }}" class="image">
-                <img src="{{ site.images_thumbs_loc }}/{{ image.name }}" alt=""
+            <a href="{{ site }}{{ site.images_fulls_loc }}/{{ image.name }}" class="image">
+                <img src="{{ site }}{{ site.images_thumbs_loc }}/{{ image.name }}" alt=""
                      data-name="{{ image.name }}"/></a>
             <!--<h2></h2>
             <p></p>-->
